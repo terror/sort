@@ -5,3 +5,4 @@ from .bubble_sort import *
 from .selection_sort import *
 from .merge_sort import *
 from .stooge_sort import *
+from .heap_sort import *
