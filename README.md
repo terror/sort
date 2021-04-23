@@ -1,6 +1,6 @@
 ## <p align='center'>sort</p>
 <p align='center'>
-<img src="https://travis-ci.com/terror/Sorting-Algorithms.svg?branch=master"/>
+<img src="https://github.com/terror/sort/actions/workflows/ci.yml/badge.svg">
 </p>
 
 <p align='center'>Sorting algorithm implementations in Python3!</p>
