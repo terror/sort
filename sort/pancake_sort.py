@@ -16,9 +16,9 @@ def pancake_sort(arr, n):
     curr = n
     while curr > 1:
         m = arr[0:curr].index(max(arr[0:curr]))
-        if m != curr-1:
+        if m != curr - 1:
             f(arr, m)
-            f(arr, curr-1)
+            f(arr, curr - 1)
         curr -= 1
     return arr
 

@@ -1,0 +1,18 @@
+[[source]]
+name       = "pypi"
+url        = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+prettytable = "*"
+sort        = {editable = true, path = "."}
+wheel       = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+test = "pytest"
